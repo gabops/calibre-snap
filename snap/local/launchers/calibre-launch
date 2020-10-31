@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# This variable cannot be overwritten from a conventional environment defined in the app. 
+export QTWEBENGINEPROCESS_PATH=$SNAP/libexec/QtWebEngineProcess
+
+exec "${@}"

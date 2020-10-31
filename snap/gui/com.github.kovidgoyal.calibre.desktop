@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.1
+Name=calibre
+GenericName=E-book library
+Icon=${SNAP}/resources/content-server/calibre.png
+TryExec=calibre
+Exec=calibre %F
+Terminal=false
+Categories=Office;
