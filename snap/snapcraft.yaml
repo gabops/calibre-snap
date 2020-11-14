@@ -1,5 +1,5 @@
 name: calibre
-version: '5.4.2'
+version: '5.5.0'
 summary: Calibre is a powerful and easy to use e-book manager.
 description: |
   Calibre is a powerful and easy to use e-book manager.
@@ -11,7 +11,7 @@ description: |
 
 base: core18
 grade: devel
-confinement: strict
+confinement: devmode
 architectures:
   - build-on: amd64
 
@@ -34,9 +34,9 @@ apps:
 parts:
   calibre:
     plugin: dump
-    source: https://github.com/kovidgoyal/calibre/releases/download/v5.4.2/calibre-5.4.2-x86_64.txz
+    source: https://github.com/kovidgoyal/calibre/releases/download/v5.5.0/calibre-5.5.0-x86_64.txz
     source-type: tar
-    source-checksum: sha256/1ecd25d69a37664dbdbe7513ccfbfc2d71993aeb2ae6d59436ee5351cda9408a
+    source-checksum: sha256/cc6514867350c50a996ac9cd093a63c40a62fff8086b6ec11e74028193e90991
     stage-packages:
       - libxi6
       - qt5-gtk-platformtheme
